@@ -131,9 +131,9 @@ nav.menu{
       }
     }
   }
-  
+
   div.menu--inner{
-    max-width: 1366px;    
+    max-width: 1366px;
     margin: auto;
   }
 
@@ -219,13 +219,13 @@ nav.menu{
               background: white;
               transition: all .15s ease-in-out;
             }
-    
+
             &:hover:before{
               width: 100%
             }
           }
         }
-        
+
         &:hover{
           visibility: visible;
           opacity: 1;
@@ -261,7 +261,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
     .card{
       width: 400px;
       background-color: white;
@@ -281,7 +281,7 @@ header {
         background-position: center;
 
         &.cernvm{
-          background-image: url("../images/cernvm-logo.png"); 
+          background-image: url("../images/cernvm-logo.png");
         }
         &.cvmfs{
           background-image: url("../images/cvmfs-logo.png");
@@ -289,7 +289,7 @@ header {
       }
 
       h2, h4{
-        color: $main-color;
+        color: white;
       }
 
       h2{
@@ -313,20 +313,20 @@ header {
       &:hover{
         background: transparent;
         transition-duration: .35s;
-        
-        .img{
-          &.cernvm{
-            background-image: url("../images/cernvm-outline.png"); 
-          }
-          &.cvmfs{
-            background-image: url("../images/cvmfs-outline.png");
-          }
-        }
+
+        //.img{
+        //  &.cernvm{
+        //    background-image: url("../images/cernvm-outline.png");
+        //  }
+        //  &.cvmfs{
+        //    background-image: url("../images/cvmfs-outline.png");
+        //  }
+        //}
 
         h2, h4{
-          color: white;
+          color: $main-color;
         }
-      } 
+      }
     }
   }
 }
@@ -357,7 +357,7 @@ section.about{
 
 section.news{
   padding: 150px 0 50px;
-  
+
   h2{
     color: white;
     text-align: right;
@@ -379,7 +379,7 @@ section.news{
       .slide{
         background: linear-gradient(to top, $light-gradient-bottom, $light-gradient-top);
         padding: 30px;
-        
+
         .top{
           font-size: 0;
 
@@ -390,7 +390,7 @@ section.news{
             margin-bottom: 20px;
             display: inline-block;
             width: 70%;
-            
+
             &:hover{
               text-decoration: underline;
             }
@@ -537,11 +537,11 @@ body.news-list-page{
   min-height: 100vh;
 
   section.news{
-    
+
     .container{
       background-color: white;
       border-radius: 5px;
-      padding: 30px 50px;  
+      padding: 30px 50px;
 
       .news{
         border-bottom: 2px solid #38485b33;
