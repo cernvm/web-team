@@ -1,0 +1,59 @@
+@media all and (max-width:1400px){
+  nav.menu{
+    padding: 0px 20px;
+  }
+}
+
+@media all and (max-width: 1400px){
+  .team{
+    padding: 120px 0;
+    .container{
+      .card{
+        width: 300px;
+        padding: 15px;
+
+        .img{
+          width: 200px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 768px){
+  .team{
+    .container{
+      .card{
+        width: 250px;
+        .img{
+          width: 150px;
+          height: 150px;
+        }
+        .card-subtitle{
+          display: none;
+        }
+        .card-title{
+          h2{
+            font-size:32px;
+          }
+        }
+        .btn{
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 600px){
+  .team{
+    .container{
+      display: block;
+      .card{
+        margin: auto;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
