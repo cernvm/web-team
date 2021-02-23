@@ -38,12 +38,12 @@ pre {
   clear: both;
 }
 
-header, footer, body.news-list-page{
+header, footer, body.news-list-page, section.blog-post{
   @include gradient-dark;
 }
 
-.download{
-  @include gradient-light;
+.publications{
+  @include gradient-dark;
 }
 
 section{
@@ -62,6 +62,7 @@ section{
     line-height: 14vw;
     opacity: 0.03;
     letter-spacing: 10px;
+    overflow: hidden;
   }
 
   .container{
@@ -444,6 +445,79 @@ header {
         }
       } 
     }
+
+    .scroll-down-mouse{
+      position: absolute;
+      bottom: 20px;
+
+      p{
+        padding-top: 60px;
+
+        &.text{
+          padding-top:10px;
+          color: white;
+        }
+
+        span{          
+          position: absolute;
+          top: 0;
+          left: 50%;
+          width: 30px;
+          height: 50px;
+          margin-left: -15px;
+          border: 2px solid white;
+          border-radius: 50px;
+          box-sizing: border-box;
+
+          &:before{
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            content: '';
+            width: 6px;
+            height: 6px;
+            margin-left: -3px;
+            background-color: white;
+            border-radius: 100%;
+            -webkit-animation: scroll 2s infinite;
+            animation: scroll 2s infinite;
+            box-sizing: border-box;
+          }
+        }
+      }
+      @-webkit-keyframes scroll {
+        0% {
+          -webkit-transform: translate(0, 0);
+          opacity: 0;
+        }
+        40% {
+          opacity: 1;
+        }
+        80% {
+          -webkit-transform: translate(0, 20px);
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes scroll {
+        0% {
+          transform: translate(0, 0);
+          opacity: 0;
+        }
+        40% {
+          opacity: 1;
+        }
+        80% {
+          transform: translate(0, 20px);
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    }
   }
 }
 
@@ -465,7 +539,105 @@ section.about{
       line-height: 24px;
     }
   }
+
+  &.our-team{
+    .team-member{
+      margin-bottom: 25px;
+
+      img{
+        display: inline-block;
+        width: 150px;
+        height: auto;
+        border: 6px solid #EDAA96;
+        border-radius: 18px;
+        padding: 10px;
+      }
+
+      >div{
+        display: inline-block;
+        width: calc(100% - 155px);
+        padding: 10px 25px;
+        vertical-align: top;
+
+        h3{
+          text-align: left;
+        }
+
+        p{
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
 }
+/////////////////////////////////////////////////////////
+
+
+// PUBLICATIONS /////////////////////////////////////////////////
+
+section.publications{
+  h2{
+    color: white;
+  }
+  .container{
+    .tabs{
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      
+      li{
+        background: none;
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+
+        strong{
+          color:$light-gradient-top;
+        }
+
+        &.active{
+          background:$light-gradient-top;
+          strong{
+            color:$dark-gradient-top;
+          }
+        }
+      }
+    }
+
+    .tab-content{
+      display: none;
+      background: linear-gradient($light-gradient-top, $light-gradient-bottom);
+      padding: 20px;
+      margin-bottom: 40px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      
+      &.active{
+        display: inherit;
+      }
+
+      .blog-post{
+        padding: 10px 10px 5px;
+        h3.post-title{
+          margin-bottom: 10px;
+        }
+        .excerpt{
+          padding-bottom: 10px;
+          border-bottom: 1px solid #3740522b;
+        }
+        &:last-child{
+          .excerpt{
+            border:none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 /////////////////////////////////////////////////////////
 
 
@@ -700,8 +872,29 @@ body.news-list-page{
     }
   }
 }
-
 /////////////////////////////////////////////////////////
 
+/// .blog-post ////////////////////////////////////////////
+
+section.blog-post{
+  padding: 150px 100px 100px;
+  min-height: 100vh;
+  .container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+
+    h1{
+      margin: 20px 0;
+    }
+    h2{
+      all:revert;
+      margin: 10px 0;
+      font-size: 20px;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////
 
 @import "responsive";

@@ -1,0 +1,54 @@
+<section class="publications">
+  <h2>PUBLICATIONS</h2>
+  <div class="container h-scroll">
+		<ul class="tabs">
+			<li class="tab-link active" data-tab="publications"><strong>Publications</strong></li>
+			<li class="tab-link" data-tab="option2"><strong>Option2</strong></li>
+			<li class="tab-link" data-tab="option3"><strong>Option3</strong></li>
+		</ul>
+
+		<div id="publications" class="tab-content active">
+			{% for post in site.posts %}
+				{% if post.categories contains "publications" %}
+					<div class="blog-post">
+						<h3 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<div class="excerpt">{{ post.excerpt }}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+
+		<div id="option2" class="tab-content">
+			{% for post in site.posts %}
+				{% if post.categories contains "publications" %}
+					<div class="blog-post">
+						<h3 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<div class="excerpt">{{ post.excerpt }}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+			{% for post in site.posts %}
+				{% if post.categories contains "publications" %}
+					<div class="blog-post">
+						<h3 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<div class="excerpt">{{ post.excerpt }}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+
+
+		<div id="option3" class="tab-content">
+			{% for post in site.posts %}
+				{% if post.categories contains "publications" %}
+					<div class="blog-post">
+						<h3 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<div class="excerpt">{{ post.excerpt }}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+
+
+	</div>
+</section>

@@ -21,6 +21,16 @@
   }
 }
 
+@media all and (max-width: 1048px){
+  .team{
+    .container{
+      .scroll-down-mouse{
+        display: none;
+      }
+    }
+  }
+}
+
 @media all and (max-width: 768px){
   .team{
     .container{
