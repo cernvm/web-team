@@ -3,8 +3,8 @@
   <div class="container h-scroll">
 		<ul class="tabs">
 			<li class="tab-link active" data-tab="publications"><strong>Publications</strong></li>
-			<li class="tab-link" data-tab="option2"><strong>Option2</strong></li>
-			<li class="tab-link" data-tab="option3"><strong>Option3</strong></li>
+			<li class="tab-link" data-tab="posters"><strong>Posters</strong></li>
+			<li class="tab-link" data-tab="talks"><strong>Talks</strong></li>
 		</ul>
 
 		<div id="publications" class="tab-content active">
@@ -18,7 +18,7 @@
 			{% endfor %}
 		</div>
 
-		<div id="option2" class="tab-content">
+		<div id="posters" class="tab-content">
 			{% for post in site.posts %}
 				{% if post.categories contains "publications" %}
 					<div class="blog-post">
@@ -38,7 +38,7 @@
 		</div>
 
 
-		<div id="option3" class="tab-content">
+		<div id="talks" class="tab-content">
 			{% for post in site.posts %}
 				{% if post.categories contains "publications" %}
 					<div class="blog-post">
