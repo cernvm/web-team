@@ -10,7 +10,7 @@
 
 html * {
   font-family: $font;
-  color: whitesmoke;
+  color: $main-color;
   margin: 0;
   box-sizing: border-box;
 }
@@ -576,6 +576,8 @@ section.about{
 }
 
 section.abouthack{
+  color: whitesmoke;
+
   h2{
     color: white;
   }
