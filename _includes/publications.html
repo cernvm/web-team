@@ -29,7 +29,6 @@
 			{% endfor %}
 		</div>
 
-
 		<div id="talks" class="tab-content">
 			{% for post in site.posts %}
 				{% if post.categories contains "talks" %}
@@ -41,6 +40,16 @@
 			{% endfor %}
 		</div>
 
+		<div id="workshops" class="tab-content">
+			{% for post in site.posts %}
+				{% if post.categories contains "workshops" %}
+					<div class="blog-post">
+						<h3 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<div class="excerpt">{{ post.excerpt }}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
 
 	</div>
 </section>
