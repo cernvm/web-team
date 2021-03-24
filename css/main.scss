@@ -46,6 +46,10 @@ header, footer, body.news-list-page, section.blog-post{
   @include gradient-dark;
 }
 
+.abouthack{
+  @include gradient-dark;
+}
+
 section{
   position: relative;
   padding: 100px;
@@ -566,6 +570,97 @@ section.about{
         p{
           margin-bottom: 25px;
         }
+      }
+    }
+  }
+}
+
+section.abouthack{
+  h2{
+    color: white;
+  }
+  .container{
+    .tabs{
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+      li{
+        background: none;
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+
+        strong{
+          color:$light-gradient-top;
+        }
+
+        &.active{
+          background:$light-gradient-top;
+          strong{
+            color:$dark-gradient-top;
+          }
+        }
+      }
+    }
+
+    .tab-content{
+      display: none;
+      background: linear-gradient($light-gradient-top, $light-gradient-bottom);
+      padding: 20px;
+      margin-bottom: 40px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      line-height: 1.5em;
+
+      &.active{
+        display: inherit;
+      }
+
+      .blog-post{
+        padding: 10px 10px 5px;
+        h3.post-title{
+          margin-bottom: 10px;
+        }
+        .excerpt{
+          padding-bottom: 10px;
+          border-bottom: 1px solid #3740522b;
+        }
+        &:last-child{
+          .excerpt{
+            border:none;
+          }
+        }
+      }
+    }
+  }
+
+  .team-member{
+    margin-bottom: 25px;
+
+    img{
+      display: inline-block;
+      width: 150px;
+      height: auto;
+      border: 6px solid #EDAA96;
+      border-radius: 18px;
+      padding: 10px;
+    }
+
+    >div{
+      display: inline-block;
+      width: calc(100% - 155px);
+      padding: 10px 25px;
+      vertical-align: top;
+
+      h3{
+        text-align: left;
+      }
+
+      p{
+        margin-bottom: 25px;
       }
     }
   }
