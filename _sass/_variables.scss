@@ -3,6 +3,9 @@
 $dark-gradient-top: #373F51;
 $dark-gradient-bottom: #2C6781;
 
+$team-gradient-top: #2C6781;
+$team-gradient-bottom: #3B83B8;
+
 // $light-gradient-top: #F58F8F;
 // $light-gradient-bottom: #EDAA96;
 $light-gradient-top: #EDCB96;
@@ -16,6 +19,10 @@ $font: 'Montserrat', sans-serif;
 
 @mixin gradient-dark {
   background: linear-gradient(-25deg, rgba(255,255,255,0.05) 10%, rgba(255,255,255,0.03) 0% 20%, rgba(255,255,255,0.02) 0% 30%, transparent 30%), linear-gradient(to top, $dark-gradient-bottom, $dark-gradient-top);
+}
+
+@mixin gradient-team {
+  background: linear-gradient(-25deg, rgba(255,255,255,0.05) 10%, rgba(255,255,255,0.03) 0% 20%, rgba(255,255,255,0.02) 0% 30%, transparent 30%), linear-gradient(to top, $team-gradient-bottom, $team-gradient-top);
 }
 
 @mixin gradient-light {

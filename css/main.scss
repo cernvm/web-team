@@ -47,7 +47,7 @@ header, footer, body.news-list-page, section.blog-post{
 }
 
 .abouthack{
-  @include gradient-light;
+  @include gradient-team;
 }
 
 section{
@@ -644,7 +644,7 @@ section.abouthack{
       display: inline-block;
       width: 150px;
       height: auto;
-      border: 6px solid #EDAA96;
+      border: 6px solid white;
       border-radius: 18px;
       padding: 10px;
     }
