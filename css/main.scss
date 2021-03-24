@@ -132,9 +132,9 @@ nav.menu{
       }
     }
   }
-  
+
   div.menu--inner{
-    max-width: 1366px;    
+    max-width: 1366px;
     margin: auto;
   }
 
@@ -155,7 +155,7 @@ nav.menu{
     text-align: right;
     width: 80%;
     vertical-align: top;
-    
+
     .hamburger{
       display: none;
       position: absolute;
@@ -199,7 +199,7 @@ nav.menu{
         -o-transform-origin: left center;
         transform-origin: left center;
       }
-    
+
       span:nth-child(2) {
         top: 11px;
         -webkit-transform-origin: left center;
@@ -207,7 +207,7 @@ nav.menu{
         -o-transform-origin: left center;
         transform-origin: left center;
       }
-    
+
       span:nth-child(3) {
         top: 22px;
         -webkit-transform-origin: left center;
@@ -281,13 +281,13 @@ nav.menu{
               background: white;
               transition: all .15s ease-in-out;
             }
-    
+
             &:hover:before{
               width: 100%
             }
           }
         }
-        
+
         &:hover{
           visibility: visible;
           opacity: 1;
@@ -308,7 +308,7 @@ nav.menu{
       .hamburger{
         display: block;
       }
-      
+
       li{
         display: none;
       }
@@ -334,12 +334,12 @@ nav.menu{
           transform: rotate(45deg);
           left: 4px;
         }
-      
+
         span:nth-child(2) {
           width: 0%;
           opacity: 0;
         }
-      
+
         span:nth-child(3) {
           -webkit-transform: rotate(-45deg);
           -moz-transform: rotate(-45deg);
@@ -377,7 +377,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
     .card{
       width: 400px;
       background-color: white;
@@ -398,7 +398,7 @@ header {
         background-position: center;
 
         &.cernvm{
-          background-image: url("../images/cernvm-logo.png"); 
+          background-image: url("../images/cernvm-logo.png");
         }
         &.cvmfs{
           background-image: url("../images/cvmfs-logo.png");
@@ -430,10 +430,10 @@ header {
       &:hover{
         background: transparent;
         transition-duration: .35s;
-        
+
         .img{
           &.cernvm{
-            background-image: url("../images/cernvm-outline.png"); 
+            background-image: url("../images/cernvm-outline.png");
           }
           &.cvmfs{
             background-image: url("../images/cvmfs-outline.png");
@@ -443,7 +443,7 @@ header {
         h2, h4{
           color: white;
         }
-      } 
+      }
     }
 
     .scroll-down-mouse{
@@ -458,7 +458,7 @@ header {
           color: white;
         }
 
-        span{          
+        span{
           position: absolute;
           top: 0;
           left: 50%;
@@ -584,7 +584,7 @@ section.publications{
       margin: 0px;
       padding: 0px;
       list-style: none;
-      
+
       li{
         background: none;
         display: inline-block;
@@ -613,7 +613,8 @@ section.publications{
       margin-bottom: 40px;
       border-bottom-right-radius: 5px;
       border-bottom-left-radius: 5px;
-      
+      line-height: 1.25em;
+
       &.active{
         display: inherit;
       }
@@ -645,7 +646,7 @@ section.publications{
 
 section.news{
   padding: 150px 0 50px;
-  
+
   h2{
     color: white;
     text-align: right;
@@ -667,7 +668,7 @@ section.news{
       .slide{
         background: linear-gradient(to top, $light-gradient-bottom, $light-gradient-top);
         padding: 30px;
-        
+
         .top{
           font-size: 0;
 
@@ -678,7 +679,7 @@ section.news{
             margin-bottom: 20px;
             display: inline-block;
             width: 70%;
-            
+
             &:hover{
               text-decoration: underline;
             }
@@ -825,11 +826,11 @@ body.news-list-page{
   min-height: 100vh;
 
   section.news{
-    
+
     .container{
       background-color: white;
       border-radius: 5px;
-      padding: 30px 50px;  
+      padding: 30px 50px;
 
       .news{
         border-bottom: 2px solid #38485b33;
