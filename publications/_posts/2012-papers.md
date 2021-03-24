@@ -1,0 +1,16 @@
+---
+layout: "post"
+title:  "2012"
+excerpt_separator: <!--more-->
+---
+
+- A Harutyunyan et al.; 2012 J. Phys.: Conf. Ser. 396 032054 **CernVM Co-Pilot: an Extensible Framework for Building Scalable Computing Infrastructure on the Cloud** [Download](http://iopscience.iop.org/1742-6596/396/3/032054)
+- J Blomer et al.; 2012 J. Phys.: Conf. Ser. 396 052013 **Status and future perspective of CernVM-FS** [Download](http://iopscience.iop.org/1742-6596/396/5/052013)
+- D Larsen et al.; 2012 J. Phys.: Conf. Ser. 396 032064 **Long-term preservation of analysis software environment** [Download](http://iopscience.iop.org/1742-6596/396/3/032064)
+- I Charalampidis et al.; 2012 J. Phys.: Conf. Ser. 396 032022 **Managing the Virtual Machine Lifecycle of the CernVM Project** [Download](http://iopscience.iop.org/1742-6596/396/3/032022)
+- J Blomer; **Decentralized Data Storage and Processing in the Context of the LHC Experiments at CERN**; PhD thesis, Technical University of Munich [Download](http://cdsweb.cern.ch/record/1462821/files/CERN-THESIS-2011-251.pdf)
+- J Blomer et al.; **CernVM-FS: delivering scientific software to globally distributed computing resources**; Proceedings of the first international workshop on Network-aware data management (NDM'11) [Download](https://dl.acm.org/citation.cfm?id=2110217.2110225)
+
+
+
+<!--more-->

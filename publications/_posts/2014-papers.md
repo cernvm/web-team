@@ -1,0 +1,13 @@
+---
+layout: "post"
+title:  "2014"
+excerpt_separator: <!--more-->
+---
+
+- R Meusel et al.; 2015 J. Phys.: Conf. Ser. 608 012031 **Recent Developments in the CernVM-File System Server Backend**, 16th International workshop on Advanced Computing and Analysis Techniques in physics research (ACAT2014) [Download](http://iopscience.iop.org/1742-6596/608/1/012031/pdf/1742-6596_608_1_012031.pdf)
+- J Blomer et al.; **The Need for a Versioned Data Analysis Software Environment**, 2nd workshop on Sustainable Software for Science (WSSSPE2) [Download](http://arxiv.org/abs/1407.3063)
+- J Blomer et al.; 2014 J. Phys.: Conf. Ser. 513 032007 **Micro-CernVM: slashing the cost of building and deploying virtual machines** [Download](http://iopscience.iop.org/1742-6596/513/3/032009)
+- D Berzano et al.; 2014 J. Phys.: Conf. Ser. 513 032009 **PROOF as a Service on the Cloud: a Virtual Analysis Facility based on the CernVM ecosystem** [Download](http://iopscience.iop.org/1742-6596/513/3/032007)
+
+
+<!--more-->

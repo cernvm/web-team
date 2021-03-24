@@ -1,0 +1,14 @@
+---
+layout: "post"
+title:  "2011"
+excerpt_separator: <!--more-->
+---
+
+- J Blomer et al.; 2011 J. Phys.: Conf. Ser. 331 042003, **Distributing LHC application software and conditions databases using the CernVM file system** [Download](http://iopscience.iop.org/1742-6596/331/4/042003)
+- B Segal et al.; 2011 J. Phys.: Conf. Ser. 331 062022, **Volunteer Clouds and Citizen Cyberscience for LHC Physics** [Download](http://iopscience.iop.org/1742-6596/331/6/062022)
+- A Harutyunyan et al.; 2011 J. Phys.: Conf. Ser. 331 062013, **CernVM CoPilot: a Framework for Orchestrating Virtual Machines Running Applications of LHC Experiments on the Cloud** [Download](http://iopscience.iop.org/1742-6596/331/6/062013)
+- P Buncic et al.; 2011 J. Phys.: Conf. Ser. 331 052004, **CernVM: Minimal maintenance approach to the virtualization.** [Download](http://iopscience.iop.org/1742-6596/331/5/052004)
+- P Buncic et al.; The European Physical Journal Plus 126(1), 2011 **A practical approach to virtualization in HEP** [Download](http://dx.doi.org/10.1140/epjp/i2011-11013-1)
+
+
+<!--more-->

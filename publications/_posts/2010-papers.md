@@ -1,0 +1,13 @@
+---
+layout: "post"
+title:  "2010"
+excerpt_separator: <!--more-->
+---
+
+- B Segal et al.; **LHC Cloud Computing with CernVM**, Proceedings of the XIII. International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT'10), Jaipur, 2010, PoS ACAT(2010)004 [Download](http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=93)
+- J Blomer and T Fuhrmann; **A Fully Decentralized File System Cache for the CernVM-FS**, Proceedings of the 19th International Conference on Computer Communications and Networks (ICCCN'10), Zurich, 2010 [Download](https://ieeexplore.ieee.org/document/5560054?arnumber=5560054)
+- A Harutyunyan et al.; 2010 J. Phys.: Conf. Ser. 219 072036, **Dynamic virtual AliEn Grid sites on Nimbus with CernVM** [Download](http://iopscience.iop.org/1742-6596/219/7/072036)
+- P Buncic et al.; 2010 J. Phys.: Conf. Ser. 219 042003, **CernVM – a virtual software appliance for LHC applications** [Download](http://iopscience.iop.org/1742-6596/219/4/042003)
+
+
+<!--more-->
