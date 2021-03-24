@@ -579,8 +579,10 @@ section.abouthack{
   h2{
     color: white;
   }
-  .container{
+  * {
     color: whitesmoke;
+  }
+  .container{
 
     .tabs{
       margin: 0px;
