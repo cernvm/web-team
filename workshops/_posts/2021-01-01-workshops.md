@@ -9,5 +9,7 @@ excerpt_separator: <!--more-->
 - [CernVM 2018 Workshop at CERN](https://indico.cern.ch/event/608592/)
 - [CernVM 2016 Workshop at RAL](https://indico.cern.ch/event/469775/)
 - [CernVM 2015 Workshop at CERN](https://indico.cern.ch/event/348657)
-
+- [2010 Workshop on adapting applications and computing services to multi-core and virtualization](https://indico.cern.ch/event/89681/)
+- [2009 Workshop on adapting applications and computing services to multi-core and virtualization](https://indico.cern.ch/event/56353/)
+- [2008 Workshop on virtualization and multi-core technologies for LHC](https://indico.cern.ch/event/28823/)
 <!--more-->
